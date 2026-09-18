@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transposición Columnar Simple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Transposición Columnar Simple</h1>
+
+        <label for="texto">Texto:</label>
+        <textarea id="texto" placeholder="Ingrese el texto..."></textarea>
+
+        <label for="clave">Clave:</label>
+        <input type="text" id="clave" placeholder="Ingrese la clave...">
+
+        <label for="longitudEntrada">Longitud original: </label>
+        <input type="number" id="longitudEntrada" placeholder="Ingrese la longitud original">
+
+        <div class="botones">
+            <button onclick="cifrar()">Cifrar</button>
+            <button onclick="descifrar()">Descifrar</button>
+        </div>
+
+        <label for="resultado">Resultado:</label>
+        <textarea id="resultado" readonly></textarea>
+
+        <div id="longitud"></div>
+        <p id="mensaje"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

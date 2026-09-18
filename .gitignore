@@ -1,0 +1,70 @@
+# =========================
+
+# Java - archivos de compilación
+
+# =========================
+
+desktop/out/
+desktop/entrada/
+desktop/app/
+# JAR generado para pruebas
+
+desktop/*.jar
+
+# =========================
+
+# IDE / editores
+
+# =========================
+
+.vscode/
+.idea/
+*.iml
+
+# =========================
+
+# Java / logs temporales
+
+# =========================
+
+*.class
+*.log
+
+# =========================
+
+# Windows / sistema
+
+# =========================
+
+Thumbs.db
+Desktop.ini
+
+# =========================
+
+# macOS
+
+# =========================
+
+.DS_Store
+
+# =========================
+
+# Android / Gradle
+
+# =========================
+
+mobile/.gradle/
+mobile/build/
+mobile/*/build/
+mobile/.idea/
+mobile/local.properties
+
+# =========================
+
+# Archivos temporales
+
+# =========================
+
+*.tmp
+*.temp
+~$*
